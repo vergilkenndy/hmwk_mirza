@@ -4,8 +4,8 @@ words = ["driver", "bigger", "father", "ninja", "ginger"]
 worDex = random.randint(0, 4)
 word = words[worDex]
 
-ranDex1 = random.randint(0, len(word))
-ranDex2 = random.randint(0, len(word))
+ranDex1 = random.randint(0, len(word) - 1)
+ranDex2 = random.randint(0, len(word) - 1)
 
 if ranDex1 == ranDex2:
     if ranDex1 == 0:
